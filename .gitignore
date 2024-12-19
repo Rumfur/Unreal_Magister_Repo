@@ -1,0 +1,25 @@
+# Ignore Binaries, Build, Derived Data Cache, Intermediate, and Saved folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore other temporary files
+*.log
+*.tmp
+*.vs
+.vscode/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.usertasks
+
+# Ignore MacOS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+desktop.ini
